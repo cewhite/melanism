@@ -10,5 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "C White",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.23.0"
+  }
 }

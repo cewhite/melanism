@@ -1,15 +1,19 @@
+import TweetBox from "./components/TweetBox"
+
 class Main extends React.Component {
   render (){
     return (
-      < Greeting />
-    );
+      <div className="container">
+        <TweetBox />
+      </div>
+   );
   }
 }
 
-// renders Main/ element
+
 let documentReady = () => {
   React.render(
-    < Main />,
+   <Main />
       document.getElementById('react')
   );
 };
